@@ -1,0 +1,35 @@
+span#channel_marker_1::after { content: url("http://www.the-game.ru/static/img/logo/1/ico_dip_self.gif");}
+span#channel_marker_103::after { content: url(data:image/gif;base64,R0lGODlhEAAQAIQDACrLKir+KirYKv///yrnKiqLKiqTKiqDKiqaKip7KiqjKiqsKiq0KipxKiq9KirxKv///////////////////////////////////////////////////////////////yH5BAEAAAMALAAAAAAQABAAAAWhYOA4wCMcBQIELIMwwrKsgVEobEAoyGIYKpbNkQMgEIrGQUEIPAoFAeuxKBiShcUjsFgKtgLD4dooMEzj2YOKAnq5KRjBkWgk7owmoNFAjBB3BwlxClY8YncJBwd+e3ZZADGKiyoCDnwJVysnVjAPAAqKNw5NAQoKJZ+FKD1SLAukcwgFSj2kOQgGDAsIgpmwNE4Fi1DDBw4MkUUoUEgLCiEAOw==);}
+span#channel_marker_112::after {content: url(data:image/gif;base64,R0lGODlhEAAQALMAAMLl+5HU/GHC/XTJ/cvp+ojQ/Fe//U67/q7e+37N/GvG/US4/n7N/dXs+gAAAAAAACH5BAAAAAAALAAAAAAQABAAAARLsLFJa5Ut671nI8IijkOgecCoigcgMZ+pAaFYvJw2jLfHIbWFweXLABQqGU6DFCU4xYZBpMhFcx2YZlSFajNc67cR9mKxMIua0ogAADs=);}
+
+/* государства */
+span#channel_marker_6796::after { content: url("http://www.the-game.ru/static/img/logo/52/ico_dip_self.gif");}
+span#channel_marker_7042::after { content: url("http://www.the-game.ru/static/img/logo/18/ico_dip_self.gif");}
+span#channel_marker_3693::after { content: url("http://www.the-game.ru/static/img/logo/15/ico_dip_self.gif");}
+
+body,body.iframed {background-image:none;}
+
+th.LAYER_TITLE > * {vertical-align:middle;}
+#plsortspan {font-size:16px;}
+
+#top_shit {
+		z-index : 50;
+		position : fixed;
+		top : -60px; 
+	    left :0; 
+	    -moz-transition:top 0.3s linear;	
+    	-o-transition:top 3s linear;	
+    	-webkit-transition:top  0.3s linear;	
+    	-ms-transition:top 0.3s linear;	
+    	transition:top 0.3s linear;	
+	}
+
+#top_shit:hover {
+	    background-color: black;
+		top : 0;
+		-moz-transition:top 0.3s linear;	
+	    -o-transition:top 0.3s linear;	
+	    -webkit-transition:top 0.3s linear;	
+	    -ms-transition:top 0.3s linear;	
+	    transition:top 0.3s linear;	
+	}
