@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name DnC+ Loader
+// @name DnC Plus 
 // @description for D&C
 // @author jlblc
-// @version 0.5.8
+// @version 0.5.9
 // @namespace https://raw.github.com/JlblC/dncplus/
 // @homepage  https://raw.github.com/JlblC/dncplus/
 // @source https://raw.github.com/JlblC/dncplus/master/dncploader.user.js
