@@ -56,9 +56,9 @@ function tab_about_scripting(){  // вкладка /about/scripting/
 
 // фича - двойной клик на названии канала
 function chanaldblclick(e){
-	console.log(e.target.id);
+	//console.log(e.target.id);
 	var chid=e.target.id.split('box_')[1];
-     console.log('ch id='+chid);
+     //console.log('ch id='+chid);
      if (!chid||chid < 1||chid=='search') return;
      $('.chan_mngmnt').remove();
 
