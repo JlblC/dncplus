@@ -10,7 +10,7 @@ function init() {
 	
 	console.log('DnC+ : Document ready');
 	if (window.location.pathname.indexOf('/communicator/')!=-1) { tab_communicator(); return; }
-	if (window.location.pathname.indexOf('/about/')!=-1) { tab_about(); return; }
+	if (window.location.pathname.indexOf('/about/scripting/')!=-1) { tab_about_scripting(); return; }
 
 
         
@@ -23,7 +23,7 @@ function tab_communicator(){ // вкладка коммуникатор
 
 }
 
-function tab_about(){  // вкладка about
+function tab_about_scripting(){  // вкладка /about/scripting/
 
 	function uid(){
 	return 'L'+Math.round(Math.random()*100000)
