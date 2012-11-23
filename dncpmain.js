@@ -19,16 +19,13 @@ function init() {
 function tab_communicator(){ // вкладка коммуникатор
 	console.log('DnC+ : communicatortab');
 	$('div.comm_chanell a').dblclick(chanaldblclick);  // вешаем на двойной клик функцию управления подпиской на канал 
- 
+	$("a[href*='/gist.github.com/']");
+	//<table width="100%" cellpadding="1" cellspacing="0" border="0" class="spoiler"><tbody><tr><td width="1%" valign="middle"><a href="javascript:ExpandNewsItem('idm23092320')"><img src="/static/img/expand.gif" alt="" width="15" height="18" border="0" id="msg_expander_idm23092320"></a></td><td width="97%"><strong><a href="javascript:ExpandNewsItem('idm23092320')" class="nounder">Заголовок</a></strong></td></tr><tr><td><img src="/static/img/z.gif" alt="" width="1" height="1"></td><td><img src="/static/img/z.gif" alt="" width="1" height="1"><br><div class="spoiler" id="news_body_row_idm23092320"><p>2</p></div></td></tr></tbody></table>
+ 	
 
 }
 
 function tab_about_scripting(){  // вкладка /about/scripting/
-
-	function uid(){
-	return 'L'+Math.round(Math.random()*100000)
-	}
-
 	console.log('DnC+ : abouttoc');
 	$.each($('h2:not(:has(a[name]))').not('h2+h2'),function() {$(this).prepend($('<a name="'+uid()+'"></a>'))});
 	$('<div id=ogl style="position:fixed; left:800px; top:75px; padding:5px; border:1px dashed gray">').appendTo('body');
@@ -70,6 +67,10 @@ function chanaldblclick(e){
      $('.chan_mngmnt').after('<span class="chan_mngmnt">&nbsp;</span>');
  }
 
+var uidnum=1;
+function uid(){
+	return 'L'+(uidnum++)+'_'+Math.round(Math.random()*100000);
+	}
 
 
 })();
